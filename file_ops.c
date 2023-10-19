@@ -90,6 +90,7 @@ void find_func(char *opcode, char *v, int line_num, int format)
 		{"pint", print_head},
 		{"pop", pop},
 		{"swap", swap_nds},
+		{"nop", nop},
 		{"add", add_nds},
 		{"sub", sub_nds},
 		{"div", div_nds},

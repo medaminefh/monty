@@ -80,3 +80,13 @@ void push_to_queue(stack_t **new_node)
 	(*new_node)->prev = tmp;
 
 }
+
+/**
+ * nop- do nothing
+ * @s: stack
+ * @l: line number
+ */
+void nop(__attribute__((unused))stack_t **s, __attribute__((unused))unsigned int l)
+{
+
+}
